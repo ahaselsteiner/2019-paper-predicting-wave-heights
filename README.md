@@ -1,5 +1,4 @@
-# Repository for the paper `Predicting wave heights for marine design'
-![Weibull probability plot](graphical-abstract-01.jpg)
+# Repo for the paper `Predicting wave heights for marine design'
 
 This is the repository for the paper 'Predicting wave heights for marine design by prioritizing extreme events in a global model' by A. F. Haselsteiner and K.-D. Thoben that is available at https://arxiv.org/pdf/1911.12835.pdf .
 
