@@ -1,0 +1,12 @@
+[submodule "beta-3p-second-kind"]
+    path = beta-3p-second-kind
+    url = https://github.com/ahaselsteiner/beta-3p-second-kind.git
+[submodule "exponentiated-weibull"]
+    path = exponentiated-weibull
+    url = https://github.com/ahaselsteiner/exponentiated-weibull.git
+[submodule "generalized-gamma"]
+    path = generalized-gamma
+    url = https://github.com/ahaselsteiner/generalized-gamma.git
+[submodule "translated-weibull"]
+    path = translated-weibull
+    url = https://github.com/ahaselsteiner/translated-weibull.git
