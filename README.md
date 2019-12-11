@@ -25,6 +25,6 @@ To download this repository and its submodules use
 git clone --recurse-submodules https://github.com/ahaselsteiner/2019-paper-predicting-wave-heights.git
 ```
 
-Alternatively, you can use the download button of this repository and separately download the submodules ( https://github.com/ahaselsteiner/exponentiated-weibull, https://github.com/ahaselsteiner/translated-weibull , https://github.com/ahaselsteiner/generalized-gamma , https://github.com/ahaselsteiner/beta-3p-second-kind ). 
+Alternatively, you can use the download button of this repository and separately download the submodules (https://github.com/ahaselsteiner/exponentiated-weibull, https://github.com/ahaselsteiner/translated-weibull, https://github.com/ahaselsteiner/generalized-gamma, https://github.com/ahaselsteiner/beta-3p-second-kind). 
 
 The code requires Matlab with the Statistics and Machine Learning Toolbox. The code was written in Matlab R2019a.
