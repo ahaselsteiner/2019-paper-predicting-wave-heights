@@ -6,7 +6,8 @@
 % image_toolbox, map_toolbox, statistics_toolbox .
 
 % If true, distributions are fitted, otherwise they are loaded.
-DO_FIT_DISTRIBUTIONS = 1;
+DO_FIT_DISTRIBUTIONS = 0;
+DO_SUPPLEMENTAL_FIGURE = 0;
 
 if DO_FIT_DISTRIBUTIONS
     load datasets-provided-ABCDEF.mat
@@ -24,4 +25,6 @@ for i = 1:13
     fileName = ['CreateFigure' num2str(i)];
     run(fileName)
 end
-run('CreateFigureS1.m');
+if DO_SUPPLEMENTAL_FIGURE
+    run('CreateFigureS1.m');
+end

@@ -1,6 +1,6 @@
 % Creates supplementary Table 3 of https://arxiv.org/pdf/1911.12835.pdf .
 
-DO_COMPUTATION = 1;
+DO_COMPUTATION = 0;
 
 if DO_COMPUTATION
     load datasets-provided-ABCDEF.mat
