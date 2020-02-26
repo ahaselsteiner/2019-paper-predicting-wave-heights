@@ -19,9 +19,9 @@ for i = 1
         'facecolor', histogramColor);
     hold on
     xi = sort(x);
-        f = pdTranslated(i).pdf(xi);
+    f = pdTranslated(i).pdf(xi);
     plot(xi, f, '-r', 'linewidth', 1.5);  
-    xlim([ -0.1 4.2])
+    xlim([-0.1 4.2])
     ylabel('Probability density (-)');
     xlabel('Significant wave height (m)');
     box off
@@ -31,17 +31,17 @@ for i = 1
     histogram(x, 'normalization', 'pdf', 'binwidth', 0.2, ...
         'facecolor', histogramColor);
     hold on
-    f = pdTranslated(i).pdf(xi);
-    plot(xi, f, '-r', 'linewidth', 1.5);    
+    xiAndHigher = [xi; 7.2; 7.4; 7.6; 7.8; 8];
+    f = pdTranslated(i).pdf(xiAndHigher);
+    plot(xiAndHigher, f, '-r', 'linewidth', 1.5);    
     n = length(x);
     j = [1:1:n];
     pi = (j - 0.5) / n;
-    f = pdTranslated(i).pdf(xi);
     index = find(pi > 0.99, 1);
     threshold = xi(index);
-    xlim([threshold ceil(max(xi))]);    
+    set(gca, 'XTick', [4 6 8]);
+    xlim([4 8]);    
     ylim([0 1.5 * pdTranslated(i).pdf(threshold)])
     xlabel('Significant wave height (m)');
     box off
-    
 end
