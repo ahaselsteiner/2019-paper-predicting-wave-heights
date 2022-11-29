@@ -1,8 +1,12 @@
-# Repo for 'Predicting wave heights for marine design'
+# Repo for 'Predicting wave heights for marine design by prioritizing extreme events in a global model'
 
-This is the repository for the paper 'Predicting wave heights for marine design by prioritizing extreme events in a global model' by A. F. Haselsteiner and K.-D. Thoben that is available at https://arxiv.org/pdf/1911.12835.pdf .
+This is the repository for the paper 'Predicting wave heights for marine design by prioritizing extreme events in a global model' by A. F. Haselsteiner and K.-D. Thoben. 
 
-It contains the following things:
+Published paper: https://doi.org/10.1016/j.renene.2020.04.112
+
+A preprint is freely available at https://arxiv.org/pdf/1911.12835.pdf .
+
+The repo contains the following things:
  * Matlab files to reproduce all figures that are presented in the paper (folder 'figures-and-tables')
    * CreateAllFigures.m creates all figures
    * CreateFigure1.m creates Figure 1 (and so forth)
